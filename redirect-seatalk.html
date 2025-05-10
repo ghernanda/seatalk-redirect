@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <title>Redirecting to Seatalk Web</title>
-    <meta http-equiv="refresh" content="0;url=https://seatalkweb.com" />
+    <title>Launch SeaTalk</title>
     <style>
       body {
         font-family: Arial, sans-serif;
         text-align: center;
-        padding: 2rem;
+        padding: 4rem;
+      }
+      button {
+        padding: 1rem 2rem;
+        font-size: 1.2rem;
+        background-color: #007fff;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
       }
     </style>
   </head>
   <body>
-    <p>Redirecting you to <a href="https://seatalkweb.com">SeaTalk Web</a>...</p>
+    <h2>Click below to open SeaTalk</h2>
+    <button onclick="window.open('https://seatalkweb.com', '_blank')">Launch SeaTalk Web</button>
   </body>
 </html>
